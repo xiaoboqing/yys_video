@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yys_controller" />
+        <module name="yys_mapper" />
+        <module name="yys_mybatis_generator_sqlmapper" />
+        <module name="yys_common" />
+        <module name="yys_pojo" />
+        <module name="yys_api" />
+        <module name="yys_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yys_api" target="1.8" />
+      <module name="yys_common" target="1.8" />
+      <module name="yys_controller" target="1.8" />
+      <module name="yys_mapper" target="1.8" />
+      <module name="yys_mybatis_generator_sqlmapper" target="1.8" />
+      <module name="yys_pojo" target="1.8" />
+      <module name="yys_service" target="1.8" />
+      <module name="yys_video" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yys_api" options="-parameters" />
+      <module name="yys_common" options="-parameters" />
+      <module name="yys_controller" options="-parameters" />
+      <module name="yys_mapper" options="-parameters" />
+      <module name="yys_mybatis_generator_sqlmapper" options="-parameters" />
+      <module name="yys_pojo" options="-parameters" />
+      <module name="yys_service" options="-parameters" />
+      <module name="yys_video" options="-parameters" />
+    </option>
+  </component>
+</project>

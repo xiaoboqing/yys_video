@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yys_api/yys_api.iml" filepath="$PROJECT_DIR$/yys_api/yys_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_common/yys_common.iml" filepath="$PROJECT_DIR$/yys_common/yys_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_controller/yys_controller.iml" filepath="$PROJECT_DIR$/yys_controller/yys_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_mapper/yys_mapper.iml" filepath="$PROJECT_DIR$/yys_mapper/yys_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_mybatis_generator_sqlmapper/yys_mybatis_generator_sqlmapper.iml" filepath="$PROJECT_DIR$/yys_mybatis_generator_sqlmapper/yys_mybatis_generator_sqlmapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_pojo/yys_pojo.iml" filepath="$PROJECT_DIR$/yys_pojo/yys_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_service/yys_service.iml" filepath="$PROJECT_DIR$/yys_service/yys_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yys_video.iml" filepath="$PROJECT_DIR$/yys_video.iml" />
+    </modules>
+  </component>
+</project>
