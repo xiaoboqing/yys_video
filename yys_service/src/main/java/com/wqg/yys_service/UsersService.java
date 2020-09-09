@@ -55,6 +55,15 @@ public class UsersService implements IUsersService {
     }
 
     /**
+     * 更新用户信息
+     * @param users
+     */
+    @Override
+    public Boolean updata(Users users) {
+        return usersMapper.updateByPrimaryKeySelective(users) > 0 ? true : false;
+    }
+
+    /**
      * 添加用户
      * @param users
      * @return
@@ -63,7 +72,7 @@ public class UsersService implements IUsersService {
     @Transactional
     public Boolean save(Users users) {
         users.setPassword(MD5Util.MD5( users.getPassword()));
-        users.setId(UUID.randomUUID().toString());
+        users.setId(UUID.randomUUID().toString().replace("-",""));
         return usersMapper.insert(users) > 0 ? true : false;
     }
 }

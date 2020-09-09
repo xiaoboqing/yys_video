@@ -1,0 +1,45 @@
+
+<view class="page" style="width:{{windowWidth}}px;height:{{windowHeight}}px">
+
+  <!--               页面顶部          -->
+  <view class="top">
+    <image src="../../images/dsp.jpg" class="top-img"></image>
+  </view>
+ 
+  <!--               页面底部          -->
+  <view class="bottom">
+    <form class="form" bindsubmit="regist">
+    <!--               账号          -->
+      <view class="account-number">
+        <view class="a-left">
+          <image class="a-img" src="../../images/username.png"></image>
+        </view>
+        <view class="a-right">
+          <label class="label">账号</label>
+          <input name='username' class="a-input" placeholder-class="placeholder" placeholder="请输入账号"></input>
+        </view>
+      </view>
+
+      <!--               密码          -->
+      <view class="account-number">
+        <view class="a-left">
+          <image class="a-img" src="../../images/password.png"></image>
+        </view>
+        <view class="a-right">
+          <label class="label">密码</label>
+          <input name='password' type="password" class="a-input" placeholder="请输入密码" placeholder-class="placeholder" ></input>
+        </view>
+      </view>
+      <!--               按钮          -->
+      <view class="but">
+        <button style="width:95%" class="regist"  formType="submit" type="primary" >注册</button>
+        <button style="width:95%" hover-class="other-button-hover" class="login"  bindtap="goLoginPage" >返回登录</button>
+      </view>
+    
+    
+    </form>
+  </view>
+
+
+<!-- 最外层 -->
+</view>

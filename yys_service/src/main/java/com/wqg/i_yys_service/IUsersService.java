@@ -35,4 +35,10 @@ public interface IUsersService {
      * @return
      */
     UserVO findUserByUserNameAndPassword(String userName, String password);
+
+    /**
+     * 更新用户信息
+     * @param users
+     */
+    Boolean updata(Users users);
 }
