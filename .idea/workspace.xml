@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fddfa1ba-dbdf-4624-a3fd-78e0719109c7" name="Default Changelist" comment="" />
+    <list default="true" id="fddfa1ba-dbdf-4624-a3fd-78e0719109c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/Upload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_program/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_program/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yys_common/src/main/java/com/wqg/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -130,6 +139,9 @@
       <workItem from="1599443097817" duration="22394000" />
       <workItem from="1599543998192" duration="3513000" />
       <workItem from="1599619238381" duration="7077000" />
+      <workItem from="1599632612990" duration="735000" />
+      <workItem from="1599704689930" duration="6877000" />
+      <workItem from="1599787704682" duration="3134000" />
     </task>
     <servers />
   </component>
@@ -153,38 +165,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="279" width="637" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1599456892708" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1599629229609">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599629229609" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1599629229582">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599629229582" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1599629229522">
+    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1599793610247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599629229522" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1599629229582">
+    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599793610247" />
+    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599629229582" />
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom" timestamp="1599629229609">
+    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.1.bottom" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599629229609" />
-    <state width="1493" height="223" key="GridCell.Tab.1.center" timestamp="1599629229609">
+    <state width="1493" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.1.center" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599629229609" />
-    <state width="1493" height="223" key="GridCell.Tab.1.left" timestamp="1599629229609">
+    <state width="1493" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.1.left" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599629229609" />
-    <state width="1493" height="223" key="GridCell.Tab.1.right" timestamp="1599629229609">
+    <state width="1493" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
+    <state width="1493" height="225" key="GridCell.Tab.1.right" timestamp="1599793610248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599629229609" />
+    <state width="1493" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599793610248" />
     <state width="1493" height="427" key="GridCell.Tab.2.bottom" timestamp="1599628867423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,6 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599448801223" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599788702764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599788702764" />
     <state x="178" y="120" key="new project wizard" timestamp="1599445167925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,16 +233,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yys_api/src/main/java/com/wqg/config/WebMvcConfig.java</url>
           <line>20</line>

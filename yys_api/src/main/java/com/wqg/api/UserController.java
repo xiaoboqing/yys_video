@@ -17,8 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
 
 /**
  * 小程序接口
@@ -132,4 +130,6 @@ public class UserController {
         }
         return RetResponse.makeRsp(400, "更新失败");
     }
+
+
 }

@@ -76,7 +76,11 @@ Page({
         })
       }
     })
-
+  },
+  uploadVideo: function () {
+    wx.redirectTo({
+      url: '../chooseBgm/chooseBgm',
+    })
   }
 
 })
