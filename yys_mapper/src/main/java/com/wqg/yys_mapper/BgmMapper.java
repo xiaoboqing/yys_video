@@ -4,6 +4,7 @@ import com.wqg.yys_pojo.Bgm;
 import com.wqg.yys_pojo.BgmExample;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 @Mapper
@@ -95,4 +96,11 @@ public interface BgmMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Bgm record);
+
+    /**
+     * 获取所有bgm
+     * @return
+     */
+    @Select("SELECT * FROM bgm")
+    List<Bgm> queryBgm();
 }

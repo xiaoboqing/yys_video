@@ -15,7 +15,7 @@ import java.io.File;
  */
 @RestController
 @RequestMapping("upload")
-public class Upload {
+public class UploadController {
 
     /**
      * 上传视频
