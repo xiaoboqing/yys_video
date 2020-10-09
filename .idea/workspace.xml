@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fddfa1ba-dbdf-4624-a3fd-78e0719109c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/BgmController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yys_service/src/main/java/com/wqg/i_yys_service/IBgmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yys_service/src/main/java/com/wqg/yys_service/BgmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_aip_java_sdk_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_jlayer_1_0_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_mp3spi_1_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_tritonus_share_0_3_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/SpeechSynthesisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yys_mapper/src/main/java/com/wqg/yys_mapper/BgmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_mapper/src/main/java/com/wqg/yys_mapper/BgmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +63,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -66,8 +73,16 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyFile\QQ\yys_video\yys_mybatis_generator_sqlmapper\src\main\resources\generator" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wqg" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wqg.yys_service" />
+      <recent name="com.wqg.i_yys_service" />
+      <recent name="com.wqg.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\MyFile\QQ\yys_video\yys_common\src\main\java\com\wqg\common" />
@@ -76,16 +91,21 @@
       <recent name="F:\MyFile\QQ\yys_video\yys_mapper\src\main\java\com\wqg\yys_mapper" />
       <recent name="F:\MyFile\QQ\yys_video\yys_mybatis_generator_sqlmapper" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wqg.yys_service" />
-      <recent name="com.wqg.i_yys_service" />
-      <recent name="com.wqg.controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\MyFile\QQ\yys_video\yys_mybatis_generator_sqlmapper\src\main\resources\generator" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.YysApiApplication">
+  <component name="RunManager" selected="Application.SpeechUtil">
+    <configuration name="SpeechUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wqg.utils.SpeechUtil" />
+      <module name="yys_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqg.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YysApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yys_api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wqg.YysApiApplication" />
@@ -127,7 +147,13 @@
       <item itemvalue="Spring Boot.YysPojoApplication" />
       <item itemvalue="Spring Boot.YysMapperApplication" />
       <item itemvalue="Spring Boot.YysCommonApplication" />
+      <item itemvalue="Application.SpeechUtil" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpeechUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,7 +170,9 @@
       <workItem from="1599619238381" duration="7077000" />
       <workItem from="1599632612990" duration="735000" />
       <workItem from="1599704689930" duration="6877000" />
-      <workItem from="1599787704682" duration="5715000" />
+      <workItem from="1599787704682" duration="11030000" />
+      <workItem from="1600225095711" duration="1236000" />
+      <workItem from="1602218396109" duration="9757000" />
     </task>
     <servers />
   </component>
@@ -164,42 +192,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599795623995" />
+    <state x="429" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602219494019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1602219494019" />
     <state x="449" y="279" width="637" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599456892708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="279" width="637" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1599456892708" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1599796754266">
+    <state x="449" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602219498199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1599796754266">
+    <state x="449" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1602219498199" />
+    <state width="1021" height="418" key="GridCell.Tab.0.bottom" timestamp="1602230177308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1599796754266">
+    <state width="1021" height="418" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
+    <state width="1021" height="418" key="GridCell.Tab.0.center" timestamp="1602230177308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1599796754266">
+    <state width="1021" height="418" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
+    <state width="1021" height="418" key="GridCell.Tab.0.left" timestamp="1602230177307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1599796754266">
+    <state width="1021" height="418" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602230177307" />
+    <state width="1021" height="418" key="GridCell.Tab.0.right" timestamp="1602230177308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1599796754266">
+    <state width="1021" height="418" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1599817230042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1599796754266">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1599817230042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1599796754266">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1599817230042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599796754266" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1599817230042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
     <state width="1493" height="427" key="GridCell.Tab.2.bottom" timestamp="1599628867423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

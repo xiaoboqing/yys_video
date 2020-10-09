@@ -5,7 +5,6 @@ import com.wqg.common.ret.RetResult;
 import com.wqg.i_yys_service.IUsersService;
 import com.wqg.vo.UserVO;
 import com.wqg.yys_pojo.Users;
-import jdk.internal.util.xml.impl.Input;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -130,6 +129,5 @@ public class UserController {
         }
         return RetResponse.makeRsp(400, "更新失败");
     }
-
 
 }
