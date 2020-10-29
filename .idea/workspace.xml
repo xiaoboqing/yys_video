@@ -1,27 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="yys_api:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fddfa1ba-dbdf-4624-a3fd-78e0719109c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_aip_java_sdk_4_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_jlayer_1_0_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_mp3spi_1_9_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_soundlibs_tritonus_share_0_3_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/SpeechSynthesisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yys_api_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hynnet_jacob_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaofeng.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaoyan.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/SpeechSynthesisApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/WindowsSpeechSynthesisApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/utils/SpeechSynthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/utils/SpeechSynthesisJavaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/utils/SpeechSynthesisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/utils/WaveHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/resources/common.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/resources/msc_x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/resources/xiaofeng.jet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yys_api/src/main/resources/xiaoyan.jet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/pages/mine/mine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_program/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/mini_program/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yys_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/BgmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/BgmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/SpeechSynthesisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/api/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/java/com/wqg/utils/SpeechUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yys_api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yys_mapper/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yys_mapper/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,7 +110,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../GoogleChrome/apache-maven-3.6.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../GoogleChrome/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="F:\MyFile\GoogleChrome\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -58,6 +131,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -66,11 +140,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="F:/QQ" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,21 +154,75 @@
       <recent name="com.wqg" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wqg.utils" />
+      <recent name="com.wqg.api" />
+      <recent name="com.wqg.config" />
       <recent name="com.wqg.yys_service" />
       <recent name="com.wqg.i_yys_service" />
-      <recent name="com.wqg.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyFile\QQ\yys\yys_video\yys_api\src\main\java\com\wqg\utils" />
+      <recent name="F:\MyFile\QQ\yys\yys_video" />
+      <recent name="F:\MyFile\QQ\yys\yys_video\yys_api\src\main\resources" />
       <recent name="F:\MyFile\QQ\yys_video\yys_common\src\main\java\com\wqg\common" />
       <recent name="F:\MyFile\QQ\yys_video\yys_mapper\src\main\resources" />
-      <recent name="F:\MyFile\QQ\yys_video\yys_pojo\src\main\java\com\wqg\yys_pojo" />
-      <recent name="F:\MyFile\QQ\yys_video\yys_mapper\src\main\java\com\wqg\yys_mapper" />
-      <recent name="F:\MyFile\QQ\yys_video\yys_mybatis_generator_sqlmapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpeechUtil">
+  <component name="RunManager" selected="Spring Boot.YysApiApplication">
+    <configuration name="KeDaXunFei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wqg.utils.KeDaXunFei" />
+      <module name="yys_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqg.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfflineWindowsTts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wqg.tes.OfflineWindowsTts" />
+      <module name="yys_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqg.tes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeechSynthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wqg.utils.SpeechSynthesis" />
+      <module name="yys_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqg.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpeechUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wqg.utils.SpeechUtil" />
+      <module name="yys_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqg.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Voice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wqg.utils.Voice" />
       <module name="yys_api" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +244,8 @@
     <configuration name="YysCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yys_common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wqg.common.YysCommonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,15 +272,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SpeechUtil" />
+      <item itemvalue="Application.KeDaXunFei" />
+      <item itemvalue="Application.Voice" />
+      <item itemvalue="Application.OfflineWindowsTts" />
+      <item itemvalue="Application.SpeechSynthesis" />
       <item itemvalue="Spring Boot.YysApiApplication" />
       <item itemvalue="Spring Boot.YysControllerApplication" />
       <item itemvalue="Spring Boot.YysPojoApplication" />
       <item itemvalue="Spring Boot.YysMapperApplication" />
       <item itemvalue="Spring Boot.YysCommonApplication" />
-      <item itemvalue="Application.SpeechUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeechSynthesis" />
+        <item itemvalue="Application.OfflineWindowsTts" />
+        <item itemvalue="Application.Voice" />
+        <item itemvalue="Application.KeDaXunFei" />
         <item itemvalue="Application.SpeechUtil" />
       </list>
     </recent_temporary>
@@ -172,7 +310,24 @@
       <workItem from="1599704689930" duration="6877000" />
       <workItem from="1599787704682" duration="11030000" />
       <workItem from="1600225095711" duration="1236000" />
-      <workItem from="1602218396109" duration="9757000" />
+      <workItem from="1602218396109" duration="15261000" />
+      <workItem from="1602292467196" duration="4265000" />
+      <workItem from="1602465254629" duration="5275000" />
+      <workItem from="1602551275773" duration="9480000" />
+      <workItem from="1602590540783" duration="431000" />
+      <workItem from="1602639133676" duration="6335000" />
+      <workItem from="1602745302039" duration="752000" />
+      <workItem from="1602810930608" duration="5850000" />
+      <workItem from="1603006651307" duration="1516000" />
+      <workItem from="1603080899752" duration="866000" />
+      <workItem from="1603175201380" duration="3934000" />
+      <workItem from="1603243939222" duration="2238000" />
+      <workItem from="1603328983355" duration="1196000" />
+      <workItem from="1603353804108" duration="1372000" />
+      <workItem from="1603675962896" duration="12023000" />
+      <workItem from="1603693454578" duration="952000" />
+      <workItem from="1603934596217" duration="110000" />
+      <workItem from="1603934900917" duration="222000" />
     </task>
     <servers />
   </component>
@@ -184,14 +339,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1599448839258" />
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599457544847">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602646369128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599457544847" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602646369128" />
+    <state x="500" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603177971266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1603177971266" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1599795623995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599795623995" />
+    <state x="522" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603685900669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1603685900669" />
     <state x="429" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602219494019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,62 +367,75 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1602219498199" />
-    <state width="1021" height="418" key="GridCell.Tab.0.bottom" timestamp="1602230177308">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602745354517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1021" height="418" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
-    <state width="1021" height="418" key="GridCell.Tab.0.center" timestamp="1602230177308">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602745354517" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1603693068073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1021" height="418" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
-    <state width="1021" height="418" key="GridCell.Tab.0.left" timestamp="1602230177307">
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603693068073" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1021" height="418" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602230177307" />
-    <state width="1021" height="418" key="GridCell.Tab.0.right" timestamp="1602230177308">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1021" height="418" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602230177308" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1599817230042">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1599817230042">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1599817230042">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1599817230042">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599817230042" />
-    <state width="1493" height="427" key="GridCell.Tab.2.bottom" timestamp="1599628867423">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599628867423" />
-    <state width="1493" height="427" key="GridCell.Tab.2.center" timestamp="1599628867423">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1603693117233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599628867423" />
-    <state width="1493" height="427" key="GridCell.Tab.2.left" timestamp="1599628867423">
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603693117233" />
+    <state width="1338" height="367" key="GridCell.Tab.2.bottom" timestamp="1602647157007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599628867423" />
-    <state width="1493" height="427" key="GridCell.Tab.2.right" timestamp="1599628867423">
+    <state width="1338" height="367" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602647157007" />
+    <state width="1338" height="367" key="GridCell.Tab.2.center" timestamp="1602647157007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599628867423" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1599448801223">
+    <state width="1338" height="367" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1602647157007" />
+    <state width="1338" height="367" key="GridCell.Tab.2.left" timestamp="1602647157007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599448801223" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599788702764">
+    <state width="1338" height="367" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1602647157007" />
+    <state width="1338" height="367" key="GridCell.Tab.2.right" timestamp="1602647157007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599788702764" />
+    <state width="1338" height="367" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602647157007" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1602572430987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1602572430987" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1603685907787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603685907787" />
+    <state x="576" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1603934899604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603676544856" />
+    <state x="576" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603934899604" />
     <state x="178" y="120" key="new project wizard" timestamp="1599445167925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -272,10 +448,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/yys_api/src/main/java/com/wqg/config/WebMvcConfig.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="11" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/yys_api/src/main/java/com/wqg/tes/OfflineWindowsTts.java</url>
+          <line>52</line>
+          <properties class="com.wqg.tes.OfflineWindowsTts" method="doTts">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

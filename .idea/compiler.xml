@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="yys_controller" />
         <module name="yys_mapper" />
-        <module name="yys_mybatis_generator_sqlmapper" />
         <module name="yys_common" />
         <module name="yys_pojo" />
         <module name="yys_service" />
