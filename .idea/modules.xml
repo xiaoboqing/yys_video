@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Thread_Demo/Thread_Demo.iml" filepath="$PROJECT_DIR$/Thread_Demo/Thread_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/yys_api/yys_api.iml" filepath="$PROJECT_DIR$/yys_api/yys_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/yys_common/yys_common.iml" filepath="$PROJECT_DIR$/yys_common/yys_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yys_controller/yys_controller.iml" filepath="$PROJECT_DIR$/yys_controller/yys_controller.iml" />

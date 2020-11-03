@@ -11,11 +11,13 @@
         <module name="yys_mapper" />
         <module name="yys_common" />
         <module name="yys_pojo" />
-        <module name="yys_service" />
+        <module name="Thread_Demo" />
         <module name="yys_api" />
+        <module name="yys_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Thread_Demo" target="1.8" />
       <module name="yys_api" target="1.8" />
       <module name="yys_common" target="1.8" />
       <module name="yys_controller" target="1.8" />
@@ -28,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Thread_Demo" options="-parameters" />
       <module name="yys_api" options="-parameters" />
       <module name="yys_common" options="-parameters" />
       <module name="yys_controller" options="-parameters" />

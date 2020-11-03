@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/yys_api/pom.xml" />
         <option value="$PROJECT_DIR$/yys_controller/pom.xml" />
         <option value="$PROJECT_DIR$/yys_mybatis_generator_sqlmapper/pom.xml" />
+        <option value="$PROJECT_DIR$/Thread_Demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
